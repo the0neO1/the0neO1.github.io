@@ -245,9 +245,9 @@ header {
 	margin-bottom: 30px;
 }
 .title h1 {
-	font-size: 80px;
+	font-family: 'Caveat', cursive;
+	font-size: 90px;
 	font-weight: 300;
-	text-transform: uppercase;
 	line-height: 0.85;
 	margin-bottom: 28px;
 	margin: 0;
@@ -567,6 +567,8 @@ footer {
 	box-sizing: border-box;
 }
 footer p {
+	font-size: 32px;
+	font-family: 'Caveat', cursive;
 	color: #FFFFFF;
 	margin: 20px 0 0 0;
 }
