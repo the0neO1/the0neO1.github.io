@@ -489,7 +489,7 @@ opacity: 0;
 .image:hover {
 	opacity: 0.6;
 	transition: .3s;
-	background-image: url(../images/hoverbg.png);
+	background-image: url(images/background);
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -497,6 +497,7 @@ opacity: 0;
 /* Evaluation Section
 ********************************************************************* */
 #evaluation {
+	background-color: #F5F5F5;
 	padding: 100px 0 100px 0;
 }
 .quoteLoop {
@@ -515,10 +516,10 @@ opacity: 0;
 /* Contact Section
 ********************************************************************* */
 #contact {
-	background-color: #F5F5F5;
 	padding: 100px 0 100px 0;
 }
 input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
+	background-color: #F5F5F5;
 	height: 38px;
 	padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
 	border: none;
