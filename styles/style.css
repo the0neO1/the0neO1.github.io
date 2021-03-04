@@ -453,9 +453,9 @@ opacity: 0;
 #about {
 	padding: 100px 0 50px 0;
 }
-/* Skills Section
+/* Survey Section
 ********************************************************************* */
-#skills {
+#survey {
 	padding: 100px 0 100px 0;
 }
 .progressBar {
@@ -537,7 +537,7 @@ opacity: 0;
 }
 /* Portfolio Section
 ********************************************************************* */
-#portfolio {
+#works {
 	padding: 100px 0 100px 0;
 }
 .image {
