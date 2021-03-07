@@ -456,6 +456,7 @@ opacity: 0;
 /* Survey Section
 ********************************************************************* */
 #survey {
+	background-color: #F5F5F5;
 	padding: 100px 0 100px 0;
 }
 .progressBar {
