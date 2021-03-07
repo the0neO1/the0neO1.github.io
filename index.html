@@ -53,7 +53,8 @@
             <div class="scroll-down"></div>
         </a>
     </header>
-    <!-- About Section
+    <div class="parallax">
+        <!-- About Section
             –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <section id="about">
         <div class="container">
@@ -116,50 +117,50 @@
             –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <section id="survey">
         <div class="container">
-          <h1>市場調查</h1>
-          <div class="block"></div>
-          <div class="row">
-            <div class="one-third column">
-              <h3><img src="images/book.png">學生</h3>
-              <p>經調查，多數學生都曾遇過「找不到地方寫作業/休息」之狀況，希望有個「能找到哪裡有空位（最好有網路和插座）」的程式</p>
+            <h1>市場調查</h1>
+            <div class="block"></div>
+            <div class="row">
+              <div class="one-third column">
+                <h3><img src="images/book.png">學生</h3>
+                <p>經調查，多數學生都曾遇過「找不到地方寫作業/休息」之狀況，希望有個「能找到哪裡有空位（最好有網路和插座）」的程式</p>
+              </div>
+              <div class="one-third column">
+                <h3><img src="images/bag.png">上班族</h3>
+                <p>大部分上班族都能較輕易找到休息的地方，然而也有一部分有「線上找空位」的需求，以便與客戶談生意或與同事討論事宜</p>
+              </div>
+              <div class="one-third column">
+                <h3>其他</h3>
+                <p>我們也訪問了家庭主婦/夫、老師、兼職者等，多數均同意「一個能查看店家空位剩餘數之程式」能帶給生活更多便利</p>
+              </div>
             </div>
-            <div class="one-third column">
-              <h3><img src="images/bag.png">上班族</h3>
-              <p>大部分上班族都能較輕易找到休息的地方，然而也有一部分有「線上找空位」的需求，以便與客戶談生意或與同事討論事宜</p>
-            </div>
-            <div class="one-third column">
-              <h3>其他</h3>
-              <p>我們也訪問了家庭主婦/夫、老師、兼職者等，多數均同意「一個能查看店家空位剩餘數之程式」能帶給生活更多便利</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="eight columns">
-              <div class="progressBar">
-                <h4>學生</h4>
-                <div class="progressBarContainer">
-                  <div class="progressBarValue value-90"></div>
+            <div class="row">
+              <div class="eight columns">
+                <div class="progressBar">
+                  <h4>學生</h4>
+                  <div class="progressBarContainer">
+                    <div class="progressBarValue value-90"></div>
+                  </div>
+                </div>
+                <div class="progressBar">
+                  <h4>上班族</h4>
+                  <div class="progressBarContainer">
+                    <div class="progressBarValue value-40"></div>
+                  </div>
+                </div>
+                <div class="progressBar">
+                  <h4>其他</h4>
+                  <div class="progressBarContainer">
+                    <div class="progressBarValue value-60"></div>
+                  </div>
                 </div>
               </div>
-              <div class="progressBar">
-                <h4>上班族</h4>
-                <div class="progressBarContainer">
-                  <div class="progressBarValue value-40"></div>
+            </div>
+            <div class="row">
+                <div class="six columns">
+                    <p>統計後得知，學生為最需要此功能之族群，因此我們以學生為目標用戶，根據學生需求進行開發及衍伸</p>
                 </div>
-              </div>
-              <div class="progressBar">
-                <h4>其他</h4>
-                <div class="progressBarContainer">
-                  <div class="progressBarValue value-60"></div>
-                </div>
-              </div>
             </div>
           </div>
-          <div class="row">
-              <div class="six columns">
-                  <p>統計後得知，學生為最需要此功能之族群，因此我們以學生為目標用戶，根據學生需求進行開發及衍伸</p>
-              </div>
-          </div>
-        </div>
       </section>
     <!-- Product Section
             –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -316,27 +317,28 @@
             –––––––––––––––––––––––––––––––––––––––––––––––––– -->
       <section id="contact">
         <div class="container">
-          <h1>聯絡我們</h1>
-          <div class="block"></div>
-          <form>
-            <div class="row">
-              <div class="six columns">
-                <label for="exampleName">姓名/暱稱</label>
-                <input class="u-full-width" type="text">
+            <h1>聯絡我們</h1>
+            <div class="block"></div>
+            <form>
+              <div class="row">
+                <div class="six columns">
+                  <label for="exampleName">姓名/暱稱</label>
+                  <input class="u-full-width" type="text">
+                </div>
+                <div class="six columns">
+                  <label for="exampleEmailInput">Email</label>
+                  <input class="u-full-width" type="email">
+                </div>
               </div>
-              <div class="six columns">
-                <label for="exampleEmailInput">Email</label>
-                <input class="u-full-width" type="email">
+              <div class="row">
+                <label for="exampleMessage">寫下你想說的話</label>
+                <textarea class="u-full-width"></textarea>
+                <input class="button-primary" type="submit" value="送出">
               </div>
-            </div>
-            <div class="row">
-              <label for="exampleMessage">寫下你想說的話</label>
-              <textarea class="u-full-width"></textarea>
-              <input class="button-primary" type="submit" value="送出">
-            </div>
-          </form>
-        </div>
+            </form>
+          </div>
       </section>
+    </div>
       <!-- Footer Section
             –––––––––––––––––––––––––––––––––––––––––––––––––– -->
       <footer>
