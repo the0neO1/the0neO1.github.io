@@ -15,7 +15,7 @@ body {
 /* Grid
 ********************************************************************* */  
 .parallax{
-	background: url(../images/ba1.jpg)center center no-repeat;
+	background: url(../images/ba1.jpeg)center center no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 }
